@@ -25,7 +25,7 @@ const Home = () => {
   const image_display = cld
     .image('text/car')
     .resize(crop().width(1500).height(1400).gravity(compass('west')).x(50))
-    .effect(pixelate().squareSize(15).region(ocr()))
+    .effect(pixelate().squareSize(15))
     // .effect(pixelate().squareSize(15).region(ocr()))
 
   // image_display.effect(pixelate().region(ocr()))
